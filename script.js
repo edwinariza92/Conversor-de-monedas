@@ -19,6 +19,7 @@ document.getElementById("convert").addEventListener("click", function () {
   const toCurrency = document.getElementById("toCurrency").value;
   const result = convertCurrency(amount, fromCurrency, toCurrency);
   document.getElementById("result").textContent = result;
+  alert("El resultado es " + result);
 });
 
 function convertCurrency(amount, fromCurrency, toCurrency) {

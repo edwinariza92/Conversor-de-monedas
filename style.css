@@ -76,9 +76,16 @@ button:hover {
   background-color: #0056b3;
 }
 
-p {
-  font-size: 18px;
-  margin-top: 20px;
+h2{
+color:#000000;
+font-size: 18px;
 }
-footer {
+footer  {
+    display: flex; 
+     flex-direction: row; 
+     justify-content: center; 
+     padding: 32px; 
+     background: url(./background.jpg); 
+     width: auto; 
+
 }
